@@ -4,6 +4,5 @@
 # Emmy Ngo, B.S. in Data Visualization Summer 2026
 
 <p align="center">
-    <img src="images/me.jpeg" alt="A photo of me, an Asian American woman, in the Quad UW" width="200"/><br>
-    <i> This is a photo of me at the UW Cherry Blossoms last year. </i><br>
+    <img src="images/pic.jpeg" alt="This photo just represents me" width="200"/>
 </p>
