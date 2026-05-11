@@ -5,7 +5,7 @@
 # About Me
 
 <p align="center">
-    <img src="images/pic.jpeg" alt="This photo just represents me" width="200"/>
+    <img src="images/me.jpeg" alt="This photo just represents me" width="200"/>
 </p>
 
 ## Emmy N., B.S. in Data Visualization -- Summer 2026
