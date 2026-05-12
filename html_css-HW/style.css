@@ -1,26 +1,110 @@
 body {
+  background-color: #fffaf5;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 16px;
-  padding: 1em;
+  margin: 0;
+  padding: 40px;
 }
+
+/* Main Review Card */
+
+.review-card {
+  background-color: white;
+  max-width: 700px;
+  margin: auto;
+  padding: 35px;
+  border-radius: 10px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  
+  text-align: center;
+}
+
+/* Title */
 
 h1 {
-  font-size: 3em;
-  margin: 0.25em 0;
+  color: #8b6f62;
+  font-size: 42px;
+  margin-bottom: 10px;
 }
+
+/* Subtitle */
 
 h3 {
-  font-size: 2em;
-  margin: 0.25em 0;
+  color: #6b8f71;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 
-h4 {
-  font-size: 1.5em;
-  margin: 0.25em 0;
-  font-weight: bold;
+/* Poster image */
+
+.poster-image {
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
+
+/* Review text left alignment */
+.review-text {
+  text-align: left;
+  line-height: 1.8;
+}
+
+/* Star Rating */
 
 p {
-  font-size: 1em;
-  color: magenta;
+  color: #5b5b5b;
+  line-height: 1.6;
+}
+
+.stars {
+  font-size: 28px;
+}
+
+/* Quote */
+
+.quote-box {
+  background-color: #f7d6e0;
+
+  font-style: italic;
+
+  padding: 20px;
+
+  border-radius: 15px; 
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Trailer button */
+
+.trailer-button {
+  background-color: #d8ead3;
+
+  color: #5a4a42;
+
+  text-decoration: none;
+
+  padding: 12px 25px;
+
+  border-radius: 10px;
+
+  display: inline-block;
+
+  margin-top: 20px;
+
+  transition: 0.3s;
+}
+
+/* Hovering effect */
+
+.trailer-button:hover {
+  background-color: #f7d6e0;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
 }
