@@ -14,6 +14,10 @@ This homework assignment is a bar chart visualization created using d3.js. The v
 
 This dataset was self-compiled using publicly available information from tour announcements, venue websites, ticketing platforms, concert records and Wikipedia under the 'tours.csv' file. It was then simplified using a pivot table to display only the number of concerts held per year in 'tours_by_year.csv'.
 
+## Author
+
+Emmy Ngo
+
 ## Course & Institution
 B Data 497 Advanced Topics: Public Data Investigation
 University of Washington Bothell
