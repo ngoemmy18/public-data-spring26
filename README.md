@@ -6,7 +6,8 @@
 
 <p align="center">
     <img src="images/me.png" alt="This photo just represents me" width="200"/>
-    photo taken by Mark Angelo Garcia
+    <br>
+    Photo taken by Mark Angelo Garcia
 </p>
 
 ## Emmy N., B.S. in Data Visualization -- Summer 2026

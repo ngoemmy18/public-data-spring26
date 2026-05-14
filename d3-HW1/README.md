@@ -6,8 +6,6 @@ This homework assignment is a bar chart visualization created using d3.js. The v
 
 ## Visual
 
-will insert later
-
 <p align="center">
     <img src="visual_screenshot.png" alt="D3 bar chart visualization" width="500"/>
 </p>
