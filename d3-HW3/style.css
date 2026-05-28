@@ -1,0 +1,56 @@
+/* Page styling */
+body {
+    font-family: "Source Sans 3", sans-serif;
+    background-color: #fff7fb;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Chart title */
+h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+    color: #222;
+}
+
+/* Chart description */
+.description {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* For the checkboxes */
+#controls {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Label spacing */
+label {
+    margin-right: 20px;
+}
+
+/* Checkbox styling */
+input[type="checkbox"] {
+    accent-color: #ff77aa;
+    transform: scale(1.2);
+}
+
+/* SVG Chart container */
+svg {
+    display: block;
+    margin: auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+}
+
+text {
+    fill: #222;
+}

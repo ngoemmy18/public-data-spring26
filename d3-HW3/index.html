@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>D3 HW3</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>K-pop Tour Stops Over Time</h1>
+
+    <p class="description">
+        This interactive line chart compares the number of U.S.
+        tour stops for selected K-pop artists from 2017–2024.
+        Use the checkboxes to show or hide artists.
+    </p>
+
+    <!-- Checkboxes -->
+    <div id="controls">
+
+        <label>
+            <input type="checkbox" value="BLACKPINK" checked>
+            BLACKPINK
+        </label>
+
+        <label>
+            <input type="checkbox" value="BTS" checked>
+            BTS
+        </label>
+
+        <label>
+            <input type="checkbox" value="ENHYPEN" checked>
+            ENHYPEN
+        </label>
+
+        <label>
+            <input type="checkbox" value="TWICE" checked>
+            TWICE
+        </label>
+
+    </div>
+
+    <div id="chart"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
