@@ -6,7 +6,7 @@ This homework assignment is an interactive multi-line chart visualization create
 ## Visual
 Interactive D3 multi-line chart visualization
 
-![Interaction Demo](chart.gif)
+![Interaction Demo](chart2.gif)
 
 ## Interaction
 Users can interact with the visualization using checkboxes to toggle artist lines on and off. When a checkbox is selected or deselected, the chart updates with a transition effect that changes whether selected artist’s data is displayed on the chart.
