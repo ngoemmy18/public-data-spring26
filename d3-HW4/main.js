@@ -20,7 +20,7 @@ const tooltip = d3
 // Projection
 const projection = d3
     .geoAlbersUsa()
-    .translate([width / 2 + 20, height / 2 + 5])    
+    .translate([width / 2 + 20, height / 2 + 5])
     .scale(1100);
 
 // Path generator
@@ -54,7 +54,6 @@ const colorScale = d3
     ]);
 
 // Create legend
-
 const legend = d3.select("#legend");
 
 const years = [
@@ -94,7 +93,7 @@ const yearLabel = d3.select("#yearLabel");
 // Current selected year
 let currentYear = 2015;
 
-// Load BOTH files
+// Load files
 Promise.all([
 
     // US map topojson
@@ -244,7 +243,6 @@ Promise.all([
 
                 return 0.18;
             });
-
     }
 
 });

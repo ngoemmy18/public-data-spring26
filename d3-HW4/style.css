@@ -1,5 +1,4 @@
 /* Page styling */
-
 body {
     font-family: "DM Sans", sans-serif;
     background-color: #fff7fb;
@@ -11,7 +10,6 @@ body {
 }
 
 /* Container */
-
 .container {
     max-width: 1100px;
 
@@ -29,7 +27,6 @@ body {
 }
 
 /* Title */
-
 h1 {
     font-size: 42px;
     margin-bottom: 10px;
@@ -37,7 +34,6 @@ h1 {
 }
 
 /* Description */
-
 .description {
     max-width: 750px;
 
@@ -50,7 +46,6 @@ h1 {
 }
 
 /* Slider section */
-
 #slider-container {
     margin-top: 60px;
     margin-bottom: 50px;
@@ -60,7 +55,6 @@ h1 {
 }
 
 /* Slider */
-
 input[type="range"] {
     width: 300px;
 
@@ -71,23 +65,19 @@ input[type="range"] {
 }
 
 /* Year label */
-
 #yearLabel {
     font-weight: bold;
     color: #f72585;
 }
 
-/* Map styling */
 
 /* Map styling */
-
 #map {
     display: block;
     margin: auto;
 }
 
 /* States */
-
 .state {
     fill: #ececec;
     stroke: white;
@@ -95,7 +85,6 @@ input[type="range"] {
 }
 
 /* Tour circles */
-
 .tour-circle {
     opacity: 0.8;
 
@@ -110,7 +99,6 @@ input[type="range"] {
 }
 
 /* Tooltip */
-
 .tooltip {
     position: absolute;
 
@@ -132,13 +120,11 @@ input[type="range"] {
 }
 
 /* Text */
-
 text {
     fill: #222;
 }
 
 /* Slider track */
-
 input[type="range"] {
     -webkit-appearance: none;
     appearance: none;
@@ -153,7 +139,6 @@ input[type="range"] {
 }
 
 /* Slider thumb */
-
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
@@ -173,13 +158,11 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 /* Hover effect */
-
 input[type="range"]::-webkit-slider-thumb:hover {
     background: #db2777;
 }
 
 /* Counter */
-
 .counter-container {
     margin-top: 0px;
     margin-bottom: 10px;
@@ -202,7 +185,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 /* Legend */
-
 #legend {
     display: flex;
 
@@ -233,7 +215,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 /* Facts section */
-
 .facts-section {
     margin-top: 40px;
 
@@ -251,7 +232,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 /* Facts grid */
-
 .facts-grid {
     display: grid;
 
@@ -261,7 +241,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
 }
 
 /* Fact cards */
-
 .fact-card {
     background-color: #fff7fb;
 
