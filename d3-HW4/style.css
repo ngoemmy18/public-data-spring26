@@ -15,7 +15,7 @@ body {
 .container {
     max-width: 1100px;
 
-    margin: 40px auto;
+    margin: 20px auto;
 
     background-color: white;
 
@@ -52,7 +52,8 @@ h1 {
 /* Slider section */
 
 #slider-container {
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 
     font-size: 20px;
     color: #222;
@@ -210,8 +211,8 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
     gap: 14px;
 
-    margin-top: 8px;
-    margin-bottom: 0px;
+    margin-top: 60px;
+    margin-bottom: 20px;
 }
 
 .legend-item {
@@ -229,4 +230,87 @@ input[type="range"]::-webkit-slider-thumb:hover {
     height: 12px;
 
     border-radius: 50%;
+}
+
+/* Facts section */
+
+.facts-section {
+    margin-top: 40px;
+
+    text-align: left;
+}
+
+.facts-section h3 {
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #222;
+
+    font-size: 28px;
+}
+
+/* Facts grid */
+
+.facts-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+    gap: 20px;
+}
+
+/* Fact cards */
+
+.fact-card {
+    background-color: #fff7fb;
+
+    padding: 20px;
+
+    border-radius: 16px;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.fact-card h4 {
+    margin-top: 0;
+
+    margin-bottom: 10px;
+
+    color: #db2777;
+
+    font-size: 18px;
+}
+
+.fact-card p {
+    color: #555;
+
+    line-height: 1.6;
+
+    font-size: 15px;
+}
+
+.fact-card a {
+    display: inline-block;
+
+    margin-top: 10px;
+
+    color: #9333ea;
+
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+.fact-card a:hover {
+    text-decoration: underline;
+}
+
+.conclusion {
+    margin-top: 40px;
+
+    color: #222;
+
+    font-size: 18px;
+    line-height: 1.6;
 }

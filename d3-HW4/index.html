@@ -19,21 +19,36 @@
     <div class="container">
 
         <!-- Title -->
-        <h1>
-            The Rise of K-pop Touring Across the United States
-        </h1>
 
-        <!-- Narrative -->
+        <h1>
+            K-pop Growth & Cultural Impact
+        </h1>
+        <h2>
+            Visualizing K-pop's Expansion Across America
+        </h2>
+        <!-- Description -->
+
         <p class="description">
             From 2015 to 2024, K-pop tours expanded from a small number
             of concerts in major coastal cities to nationwide tours
             reaching audiences across the United States. This
-            visualization highlights how increasing tour locations and
-            performances reflect growing visibility and demand for Asian
-            musical acts within the American entertainment industry.
+            visualization highlights the increase in tour locations and
+            performances and reflects growing visibility and demand for
+            Asian musical acts in the American entertainment industry.
+        </p>
+        
+        <p class="description">
+            This data is sourced from using publicly available information
+            from tour announcements, venue websites, ticketing platforms, concert 
+            records and Wikipedia, which compiles information on tour dates, locations,
+            and attendance for major K-pop groups performing in the U.S. over the past
+            decade.
         </p>
 
-        <!-- Slider -->
+        <p class="description">
+            Use the slider to explore the growth of K-pop tours across America year by year!
+        </p>
+
         <div id="slider-container">
 
             <label for="yearSlider">
@@ -48,30 +63,126 @@
 
         </div>
 
-        <!-- SVG Map -->
+        <!-- Map -->
+
         <svg id="map"></svg>
 
-    </div>
-    <div id="legend"></div>
-    
+        <!-- Legend -->
 
-    <svg id="map"></svg>
+        <div id="legend"></div>
 
-    <div class="counter-container">
+        <!-- Counter -->
 
-        <h2 id="tourCount">
-            0
-        </h2>
+        <div class="counter-container">
 
-        <p>
-            Total Tour Stops Through <span id="counterYear">2015</span>
+            <h2 id="tourCount">
+                0
+            </h2>
+
+            <p>
+                Total Tour Stops Through
+                <span id="counterYear">2015</span>
+            </p>
+
+        </div>
+
+        <!-- Fun facts -->
+
+        <div class="facts-section">
+
+            <h3>
+                K-pop Growth & Cultural Impact
+            </h3>
+
+            <div class="facts-grid">
+
+                <div class="fact-card">
+                    <h4>
+                        BTS Breaks Billboard History
+                    </h4>
+
+                    <p>
+                        In 2018, BTS became the first K-pop group to reach No. 1
+                        on the U.S. Billboard 200 album chart with
+                        <em>Love Yourself: Tear</em>, marking a major turning point
+                        for K-pop visibility in the American music industry.
+                    </p>
+
+                    <a href="https://time.com/5292964/korean-boyband-bts-k-pop-billboard-200/" target="_blank">
+                        Source
+                    </a>
+                </div>
+
+                <div class="fact-card">
+                    <h4>
+                        BLACKPINK at Coachella
+                    </h4>
+
+                    <p>
+                        BLACKPINK became the first K-pop group to headline
+                        Coachella in 2023, one of the largest music festivals
+                        in the United States.
+                    </p>
+
+                    <a href="https://pitchfork.com/news/blackpink-perform-at-coachella-2023/" target="_blank">
+                        Source
+                    </a>
+                </div>
+
+                <div class="fact-card">
+                    <h4>
+                        Stadium Tours Became Possible
+                    </h4>
+
+                    <p>
+                        BTS world tours now include stadium performances across
+                        North America, demonstrating how K-pop evolved from
+                        niche theater concerts to major stadium events.
+                    </p>
+
+                    <a href="https://www.businessinsider.com/bts-hybe-q1-record-revenue-album-sales-world-tour-2026-4"
+                        target="_blank">
+                        Source
+                    </a>
+                </div>
+
+                <div class="fact-card">
+                    <h4>
+                        Massive Economic Impact
+                    </h4>
+
+                    <p>
+                        Research from the Bank of Korea estimated that BTS alone
+                        contributed roughly $5 billion annually to South Korea’s
+                        economy through tourism, culture, and global interest.
+                    </p>
+
+                    <a href="https://en.wikipedia.org/wiki/BTS" target="_blank">
+                        Source
+                    </a>
+                </div>
+
+            </div>
+
+        </div> 
+        <p class="conclusion"> 
+            The expansion of K-pop touring across the United States reflects growing 
+            global influence, audience demand, and visibility for Asian artists in mainstream 
+            entertainment.
         </p>
 
     </div>
 
-    <!-- D3 Library -->
+    <!-- D3 -->
+
     <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- TopoJSON -->
+
     <script src="https://unpkg.com/topojson-client@3"></script>
+
+    <!-- JS -->
+
     <script src="./main.js"></script>
 
 </body>

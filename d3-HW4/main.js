@@ -20,7 +20,7 @@ const tooltip = d3
 // Projection
 const projection = d3
     .geoAlbersUsa()
-    .translate([width / 2 + 40, height / 2 - 30])    
+    .translate([width / 2 + 20, height / 2 + 5])    
     .scale(1100);
 
 // Path generator
