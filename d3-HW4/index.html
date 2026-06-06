@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        The Rise of K-pop Touring Across America
+    </title>
+
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap">
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Title -->
+        <h1>
+            The Rise of K-pop Touring Across the United States
+        </h1>
+
+        <!-- Narrative -->
+        <p class="description">
+            From 2015 to 2024, K-pop tours expanded from a small number
+            of concerts in major coastal cities to nationwide tours
+            reaching audiences across the United States. This
+            visualization highlights how increasing tour locations and
+            performances reflect growing visibility and demand for Asian
+            musical acts within the American entertainment industry.
+        </p>
+
+        <!-- Slider -->
+        <div id="slider-container">
+
+            <label for="yearSlider">
+                Year:
+            </label>
+
+            <input type="range" min="2015" max="2024" value="2015" step="1" id="yearSlider">
+
+            <span id="yearLabel">
+                2015
+            </span>
+
+        </div>
+
+        <!-- SVG Map -->
+        <svg id="map"></svg>
+
+    </div>
+    <div id="legend"></div>
+    
+
+    <svg id="map"></svg>
+
+    <div class="counter-container">
+
+        <h2 id="tourCount">
+            0
+        </h2>
+
+        <p>
+            Total Tour Stops Through <span id="counterYear">2015</span>
+        </p>
+
+    </div>
+
+    <!-- D3 Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
